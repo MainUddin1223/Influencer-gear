@@ -6,7 +6,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+/* :root{
+    --common-btn-color: #E02C6D;
+} */
 nav{
     display: grid;
     grid-template-columns: 450px repeat(1, 1fr);
@@ -30,3 +32,57 @@ nav{
 }
 /* header css ends here */
 /* introduction section starts here */
+.introduction-div{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.intro-info{
+   width: 70%;
+  margin: 40px auto;
+}
+.intro-info h1{
+    padding: 10px;
+    font-size: 2em;
+    color: #3A3A3A;
+}
+.intro-info p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A3A3A;
+    padding: 10px;
+}
+.intro-info button{
+    background-color:#E02C6D;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.intro-img{
+    margin: 20px auto;
+    position: relative;
+}
+.intro-img{
+    padding: 40px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 2px rgb(233, 199, 135);
+}
+.shadow-div{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 202);
+    box-shadow: 0 0 2px rgb(233, 199, 135);
+}
+.shadow-div img{
+    width: 350px;
+}
