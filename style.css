@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 450px repeat(1, 1fr);
+    padding: 20px;
+}
+.text-logo{
+    text-align: center;
+}
+.nav-manu ul {
+    display: flex;
+    justify-content: center;
+}
+.nav-manu ul li{
+    list-style: none;
+    padding: 0 15px;
+    font-size: 20px;
+}
+.nav-manu ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* header css ends here */
+/* introduction section starts here */
